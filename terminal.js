@@ -29,7 +29,7 @@ var Terminal = (function () {
 		inputField.style.fontSize = '0.2em'
 
 		terminalObj._inputLine.textContent = ''
-		terminalObj._input.style.display = 'inline-block'
+		terminalObj._input.style.display = 'inline'
 		terminalObj.html.appendChild(inputField)
 		fireCursorInterval(inputField, terminalObj)
 
